@@ -1,0 +1,11 @@
+*.gif
+*.swo
+*.swp
+*.h5
+*.out
+*.mat
+*.npy
+*.png
+*.pdf
+__pycache__/
+.ipynb_checkpoints
