@@ -4,6 +4,9 @@
 *.h5
 *.out
 *.mat
+*.nwb
+*.json
+*.csv
 *.npy
 *.png
 *.pdf
