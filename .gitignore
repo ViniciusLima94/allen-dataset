@@ -5,6 +5,7 @@
 *.out
 *.mat
 *.nwb
+*log
 *.json
 *.csv
 *.npy

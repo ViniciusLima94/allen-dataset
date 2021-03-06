@@ -46,5 +46,5 @@ def download_session(session_id):
 #  _ = [print(link) for link in download_links]
 #  download_session(sessions.index.values[0])
 n_jobs = int(sys.argv[-1])
-Parallel(n_jobs=n_jobs, backend='loky', timeout=1e6)(delayed(download_session)(sid) for sid in sessions.index.values[:5])
+Parallel(n_jobs=n_jobs, backend='loky', timeout=1e6)(delayed(download_session)(sid) for sid in sessions.index.values)
 
