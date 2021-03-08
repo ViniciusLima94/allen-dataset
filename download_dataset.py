@@ -39,7 +39,7 @@ def download_session(session_id):
     # Download data
     os.system("wget "+ link)
     # Transfer data to proper directory
-    os.system("mv " + link.split("http://api.brain-map.org//api/v2/well_known_file_download/",1)[1] + " " + os.path.join(data_directory, str(session_id),"ecephys_session_" + str(session_id)+".nwb"))
+    os.system("mv " + link.split("http://api.brain-map.org//api/v2/well_known_file_download/",1)[1] + " " + os.path.join(data_directory, 'session_'+str(session_id),"ecephys_session_" + str(session_id)+".nwb"))
 
 #  download_links = [retrieve_link(session_id) for session_id in sessions.index.values]
 
